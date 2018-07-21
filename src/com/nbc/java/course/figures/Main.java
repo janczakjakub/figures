@@ -9,6 +9,11 @@ public class Main {
         System.out.println(rectangle.toString());
         System.out.println(square.toString());
         System.out.println(triangle.toString());
+
+        Rectangle rectangle2 = new Square(5);
+
+        ((Square)rectangle2).aboutSquare(); // polimorfizm
+
     }
 }
 

@@ -20,4 +20,8 @@ public class Square extends Rectangle {
                 + ". His parent is " + super.getName();
     }
 
+    public void aboutSquare() {
+        System.out.println("The Square has the same sides");
+    }
+
 }
