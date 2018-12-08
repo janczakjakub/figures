@@ -6,6 +6,11 @@ public class Main {
         Square square = new Square(5);
         Triangle triangle = new Triangle(2,2,2);
 
+        System.out.println("//////////////////////////////");
+        System.out.println(rectangle.getArea());
+        System.out.println("//////////////////////////////");
+
+
         System.out.println(rectangle.toString());
         System.out.println(square.toString());
         System.out.println(triangle.toString());

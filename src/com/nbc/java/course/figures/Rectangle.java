@@ -27,6 +27,12 @@ public class Rectangle extends Shape {
         return 2*sumSides;
     }
 
+    public int getArea2() {
+        return this.getArea();
+    }
+
+
+
     public int getArea() {
         return this.getSideLengths()[0] * this.getSideLengths()[1];
     }
